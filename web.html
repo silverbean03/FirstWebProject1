@@ -4,6 +4,7 @@
 <head>
     <title>Web1 - Welcome</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFSKT3FDF9"></script>
     <script>
@@ -17,43 +18,47 @@
 
 <body>
     <h1><a href="web.html">WEB</a></h1>
-    <ol>
-        <li><a href="html.html">HTML</a></li>
-        <li><a href="css.html">CSS</a></li>
-        <li><a href="js.html">JavaScript</a></li>
-    </ol>
-    <h2>WEB이란 무엇인가?</h2>
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE?si=IWenzhICm34zKK3K"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </p>
-    <p>
-        The World Wide Web (WWW, W3 or simply the Web) is an information system that enables content sharing
-        over the
-        Internet
-        through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists.[1] It allows
-        documents
-        and
-        other web resources to be accessed over the Internet according to specific rules of the Hypertext
-        Transfer
-        Protocol
-        (HTTP).[2]
+    <div id="grid">
+        <ol>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="js.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>WEB이란 무엇인가?</h2>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE?si=IWenzhICm34zKK3K"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+            <p>
+                The World Wide Web (WWW, W3 or simply the Web) is an information system that enables content sharing
+                over the
+                Internet
+                through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists.[1] It allows
+                documents
+                and
+                other web resources to be accessed over the Internet according to specific rules of the Hypertext
+                Transfer
+                Protocol
+                (HTTP).[2]
 
-        The Web was invented by English computer scientist Tim Berners-Lee while at CERN in 1989 and opened to
-        the
-        public in
-        1993. It was conceived as a "universal linked information system".[3][4][5] Documents and other media
-        content
-        are made
-        available to the network through web servers and can be accessed by programs such as web browsers.
-        Servers and
-        resources
-        on the World Wide Web are identified and located through character strings called uniform resource
-        locators
-        (URLs).
-    </p>
+                The Web was invented by English computer scientist Tim Berners-Lee while at CERN in 1989 and opened to
+                the
+                public in
+                1993. It was conceived as a "universal linked information system".[3][4][5] Documents and other media
+                content
+                are made
+                available to the network through web servers and can be accessed by programs such as web browsers.
+                Servers and
+                resources
+                on the World Wide Web are identified and located through character strings called uniform resource
+                locators
+                (URLs).
+            </p>
+        </div>
+    </div>
     <div id="disqus_thread"></div>
     <script>
         /**
@@ -72,7 +77,8 @@
             (d.head || d.body).appendChild(s);
         })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+            by
             Disqus.</a></noscript>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
